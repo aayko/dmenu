@@ -11,10 +11,10 @@ static const int user_bh = 4;               /* add an defined amount of pixels t
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#ffffff", "#080808" },
-	[SchemeUnselected] = { "#aaaaaa", "#080808" },
-	[SchemeSel] = { "#ffffff", "#080808" },
-	[SchemeOut] = { "#080808", "#00ffff" },
+	[SchemeNorm] = { "#ebdbb2", "#0f0f0f" },
+	[SchemeUnselected] = { "#928374", "#0f0f0f" },
+	[SchemeSel] = { "#ebdbb2", "#0f0f0f" },
+	[SchemeOut] = { "#0f0f0f", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
